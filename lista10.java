@@ -53,14 +53,15 @@ public class lista10 {
         System.out.println("\n---------------------");
 
         // 5 
-        System.out.println("\n5 - Somar números de 1 a 5:");
-        contador = 1;
-        soma = 0;
-        while (contador <= 5) {
-            soma += contador;
-            contador++;
+        int numero1 = 1; 
+        int soma1 = 0;     
+
+        while (numero1 <= 5) {
+            soma1 = soma1 + numero1; 
+            numero1++;             
         }
-        System.out.println("Soma = " + soma);
+
+        System.out.println("A soma dos números de 1 a 5 é: " + soma1);
         System.out.println("---------------------");
 
         // 6 

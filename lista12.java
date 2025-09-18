@@ -13,6 +13,7 @@ public class lista12 {
             num++;
         } while (num <= 30);
 
+        System.out.println("//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////");
         // 2
         int chute;
         do {
@@ -21,6 +22,7 @@ public class lista12 {
         } while (chute != 5);
         System.out.println("Parabéns, você acertou!");
 
+        System.out.println("//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////");
         // 3 
         int peso;
         do {
@@ -32,6 +34,7 @@ public class lista12 {
         } while (peso > 23);
         System.out.println("Peso dentro do limite!");
 
+        System.out.println("//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////");
         // 4
         int dias = 1;
         int totalPaginas = 0;
@@ -42,6 +45,7 @@ public class lista12 {
         } while (dias <= 7);
         System.out.println("Total de páginas lidas na semana: " + totalPaginas);
 
+        System.out.println("//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////");
         // 5 
         int codigo;
         do {
@@ -53,6 +57,7 @@ public class lista12 {
         } while (codigo != 789);
         System.out.println("Dispositivo desbloqueado!");
 
+        System.out.println("//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////");
         // 6 
         int combustivel;
         do {
@@ -64,6 +69,7 @@ public class lista12 {
         } while (combustivel <= 10);
         System.out.println("Combustível suficiente para a viagem!");
 
+        System.out.println("//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////");
         // 7
         int distancia;
         int totalKm = 0;
@@ -76,6 +82,7 @@ public class lista12 {
         } while (distancia > 0);
         System.out.println("Total de quilômetros percorridos: " + totalKm);
         
+        System.out.println("//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////");
         
         
         
@@ -301,3 +308,4 @@ public class lista12 {
 
     }
 }
+

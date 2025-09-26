@@ -6,7 +6,7 @@ public class lisa16 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        // 1 - Criando um vetor de cores
+        // 1 
         String[] cores = new String[6];
         for (int i = 0; i < cores.length; i++) {
             System.out.print("Digite uma cor: ");
@@ -18,7 +18,7 @@ public class lisa16 {
         }
         System.out.println("------------------------------------------------");
 
-        // 2 - Vetor de números decimais
+        // 2
         double[] numeros = new double[8];
         for (int i = 0; i < numeros.length; i++) {
             System.out.print("Digite um número decimal: ");
@@ -30,7 +30,7 @@ public class lisa16 {
         }
         System.out.println("------------------------------------------------");
 
-        // 3 - Mostrando apenas os pares
+        // 3
         int[] inteiros = new int[10];
         for (int i = 0; i < inteiros.length; i++) {
             System.out.print("Digite um número inteiro: ");
@@ -44,7 +44,7 @@ public class lisa16 {
         }
         System.out.println("------------------------------------------------");
 
-        // 4 - Menores que 50
+        // 4 
         for (int i = 0; i < 12; i++) {
             System.out.print("Digite um número: ");
             int num = sc.nextInt();
@@ -54,9 +54,9 @@ public class lisa16 {
         }
         System.out.println("------------------------------------------------");
 
-        sc.nextLine(); // limpar buffer
+        sc.nextLine();
 
-        // 5 - Procurando um nome no vetor
+        // 5 
         String[] nomes = new String[5];
         for (int i = 0; i < nomes.length; i++) {
             System.out.print("Digite um nome: ");
@@ -78,7 +78,7 @@ public class lisa16 {
         }
         System.out.println("------------------------------------------------");
 
-        // 6 - Produto e preço
+        // 6 
         String[] produtos = new String[4];
         double[] precos = new double[4];
         for (int i = 0; i < produtos.length; i++) {
@@ -86,14 +86,14 @@ public class lisa16 {
             produtos[i] = sc.nextLine();
             System.out.print("Digite o preço do produto: ");
             precos[i] = sc.nextDouble();
-            sc.nextLine(); // limpar buffer
+            sc.nextLine();
         }
         for (int i = 0; i < produtos.length; i++) {
             System.out.println("O produto " + produtos[i] + " custa R$" + precos[i]);
         }
         System.out.println("------------------------------------------------");
 
-        // 7 - Verificação de notas
+        // 7
         double[] notas = new double[6];
         for (int i = 0; i < notas.length; i++) {
             System.out.print("Digite a nota: ");
@@ -110,7 +110,7 @@ public class lisa16 {
         }
         System.out.println("------------------------------------------------");
 
-        // 8 - Promoção de ingressos
+        // 8 
         double[] ingressos = new double[5];
         for (int i = 0; i < ingressos.length; i++) {
             System.out.print("Digite o preço do ingresso: ");
@@ -125,3 +125,4 @@ public class lisa16 {
 
     }
 }
+
